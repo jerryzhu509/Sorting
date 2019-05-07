@@ -5,7 +5,7 @@ import java.util.*;
  * 
  * ICS4U0 with Mrs. Krasteva
  * 
- * @author Richard Hanxu
+ * @author Abhi Nair, Jerry Zhu, Richard Hanxu
  */
 public class BubbleSortExample
 {
@@ -119,11 +119,8 @@ public class BubbleSortExample
    */
   public static void main(String[] args)
   {
-        
     BubbleSortExample myArray = new BubbleSortExample(5);
     myArray.setContents();
     myArray.bubbleSort();
-    
-    
   }
 }
